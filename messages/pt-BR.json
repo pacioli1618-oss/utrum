@@ -338,5 +338,16 @@
     "chip": "Priorização",
     "cta": "Compare dois de cada vez e veja o ranking",
     "alt": "Convite para priorizar {title}"
+  },
+  "Install": {
+    "button": "Fixar na tela do celular",
+    "title": "Fixar na tela do celular",
+    "intro": "Assim o Utrum fica junto dos seus apps e abre direto nas suas listas, sem precisar procurar o link.",
+    "ios1": "Toque no botão Compartilhar (o quadrado com uma seta para cima), na barra do Safari.",
+    "ios2": "Role a lista e toque em \"Adicionar à Tela de Início\".",
+    "ios3": "Toque em \"Adicionar\". O ícone do Utrum aparece na tela do celular.",
+    "menu1": "Abra o menu do navegador (os três pontinhos ⋮).",
+    "menu2": "Toque em \"Adicionar à tela inicial\" ou \"Instalar app\" e confirme.",
+    "done": "Entendi"
   }
 }

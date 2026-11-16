@@ -338,5 +338,16 @@
     "chip": "Prioritization",
     "cta": "Compare two at a time and see the ranking",
     "alt": "Invitation to prioritize {title}"
+  },
+  "Install": {
+    "button": "Add to home screen",
+    "title": "Add to home screen",
+    "intro": "Utrum then sits with your other apps and opens straight to your lists, no link to find.",
+    "ios1": "Tap the Share button (the square with an arrow pointing up) in Safari's toolbar.",
+    "ios2": "Scroll down and tap \"Add to Home Screen\".",
+    "ios3": "Tap \"Add\". The Utrum icon shows up on your home screen.",
+    "menu1": "Open the browser menu (the three dots ⋮).",
+    "menu2": "Tap \"Add to Home screen\" or \"Install app\" and confirm.",
+    "done": "Got it"
   }
 }
