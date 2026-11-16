@@ -1,0 +1,189 @@
+.hello {
+  margin: 0;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 800;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--radius-md);
+  background: var(--divider);
+}
+
+.tab {
+  flex: 1;
+  min-height: 40px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+
+.tab[aria-selected='true'] {
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--border);
+}
+
+/* Compare */
+.compare {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.question {
+  margin: var(--space-2) 0 0;
+  text-align: center;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+.detail {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--ink-muted);
+}
+
+.duel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: stretch;
+  gap: 10px;
+  margin: var(--space-3) 0;
+}
+
+.pick {
+  min-height: 140px;
+  padding: var(--space-4);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+  cursor: pointer;
+  animation: appear 160ms ease-out;
+  transition:
+    border-color 120ms ease,
+    background-color 120ms ease,
+    transform 120ms ease;
+}
+
+.pick:hover {
+  border-color: var(--brand);
+}
+
+.pick:active {
+  transform: scale(0.98);
+  background: var(--brand-tint);
+  border-color: var(--brand);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.or {
+  align-self: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+.track {
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--track);
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--brand);
+  transition: width 200ms ease;
+}
+
+.progressRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  font-size: 14px;
+  color: var(--ink-muted);
+}
+
+.smallButton {
+  min-height: 36px;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+.keys {
+  margin: 0;
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+/* Shortcuts only mean something with a keyboard. */
+@media (hover: none) {
+  .keys {
+    display: none;
+  }
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  text-align: center;
+  border-color: var(--brand);
+  border-width: 2px;
+}
+
+.doneTitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 800;
+}
+
+.suggestRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: var(--space-2);
+}
+
+@media (max-width: 400px) {
+  .duel {
+    grid-template-columns: 1fr;
+  }
+  .pick {
+    min-height: 96px;
+  }
+  .or {
+    justify-self: center;
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "Metadata": {
+    "title": "Utrum — priorize comparando dois de cada vez",
+    "description": "Monte uma lista, escolha o critério e decida o que vem primeiro comparando dois itens de cada vez. Depois, compare a sua visão com a dos outros. Sem cadastro."
+  },
+  "Common": {
+    "tagline": "Gratuito · Open source · Sem cadastro",
+    "cancel": "Cancelar",
+    "remove": "Remover",
+    "loading": "Carregando…",
+    "optional": "opcional",
+    "people": "{count, plural, one {# pessoa} other {# pessoas}}",
+    "items": "{count, plural, one {# item} other {# itens}}"
+  },
+  "CreateList": {
+    "headline": "O que vem primeiro?",
+    "intro": "Monte a lista, escolha o critério e compare dois itens de cada vez. O ranking aparece sozinho, e dá para ver onde a sua visão bate (ou não) com a dos outros.",
+    "title": "Nome da priorização",
+    "titlePlaceholder": "Ex.: Problemas do sistema para o próximo trimestre",
+    "titleRequired": "Dê um nome à priorização.",
+    "items": "Itens",
+    "itemsHint": "Um por linha: assuntos, filmes, problemas, tarefas…",
+    "itemsPlaceholder": "Relatório de vendas lento\nLogin cai no celular\nBackup ainda é manual",
+    "itemsRequired": "Coloque pelo menos 2 itens, um por linha.",
+    "itemsTooMany": "No máximo {max} itens.",
+    "itemsCount": "{count, plural, one {# item} other {# itens}} · cerca de {comparisons, plural, one {# comparação} other {# comparações}} por pessoa",
+    "method": "Método",
+    "methods": {
+      "quick": {
+        "title": "Rápido",
+        "hint": "Ordena com o mínimo de perguntas. Bom para listas longas."
+      },
+      "full": {
+        "title": "Completo",
+        "hint": "Compara todos os pares e conta vitórias. Melhor até uns 12 itens."
+      }
+    },
+    "hostTakesPart": "Eu também vou comparar",
+    "hostTakesPartHint": "Você monta o seu ranking como todo mundo. Desmarque se só vai organizar e ver os resultados.",
+    "hostName": "Seu nome",
+    "hostNameHint": "Como os outros te conhecem.",
+    "hostNameRequired": "Escreva seu nome para comparar também.",
+    "submit": "Criar priorização"
+  },
+  "Criterion": {
+    "label": "Critério de escolha",
+    "hint": "A pergunta que aparece em cada comparação.",
+    "placeholder": "Ex.: Qual afeta mais clientes?",
+    "required": "Escreva o critério de escolha.",
+    "presetsLabel": "Critérios prontos",
+    "presets": {
+      "important": "Qual é mais importante?",
+      "urgent": "Qual é mais urgente?",
+      "critical": "Qual é mais crítico?",
+      "impact": "Qual tem mais impacto?",
+      "prefer": "Qual você prefere?",
+      "watch": "Qual quer assistir primeiro?",
+      "first": "Qual resolver primeiro?"
+    },
+    "detailLabel": "Explicação do critério",
+    "detailHint": "Ajuda todo mundo a julgar do mesmo jeito.",
+    "detailPlaceholder": "Ex.: Pense no impacto no faturamento e no risco de parar a operação"
+  },
+  "ListSummary": {
+    "method": {
+      "quick": "método rápido",
+      "full": "todos os pares"
+    },
+    "itemsLabel": "Itens",
+    "whoIsIn": "Quem já está",
+    "nobodyYet": "Ninguém entrou ainda. Seja o primeiro."
+  },
+  "Ranking": {
+    "wins": "{count, plural, one {# vitória} other {# vitórias}}",
+    "unplaced": "ainda sem posição"
+  },
+  "Results": {
+    "you": "Você",
+    "statusDone": "concluiu",
+    "statusNotStarted": "não começou",
+    "statusProgress": "{percent}",
+    "noneComplete": "Os resultados aparecem quando alguém concluir o próprio ranking.",
+    "consolidatedTitle": "Ranking consolidado",
+    "consolidatedHint": "Média das posições {count, plural, one {do ranking concluído} other {dos # rankings concluídos}}. Cor mais forte, mais perto do topo.",
+    "pendingLeftOut": "{count, plural, one {Uma pessoa ainda em andamento ficou de fora.} other {# pessoas ainda em andamento ficaram de fora.}}",
+    "item": "Item",
+    "mean": "Média",
+    "spread": "Dif.",
+    "agreementTitle": "Concordância",
+    "agreementHint": "Quanto cada dupla ordenou os itens do mesmo jeito. Média geral: {percent}.",
+    "agreementPair": "{first} e {second}: {percent}",
+    "divergenceTitle": "Onde vale conversar",
+    "divergenceHint": "Os itens em que as posições mais variam entre as pessoas.",
+    "fullConsensus": "Todo mundo ordenou exatamente igual.",
+    "positionOf": "{name} {position}º",
+    "positionRange": "do {best}º ao {worst}º lugar"
+  },
+  "Join": {
+    "invitedLabel": "Priorização",
+    "howItWorks": "Você vai ver dois itens de cada vez e escolher um, pelo critério acima. No fim, sai o seu ranking, e aí dá para ver o dos outros.",
+    "whoAreYou": "Como você se chama?",
+    "namePlaceholder": "Seu nome",
+    "nameHint": "Como os outros te conhecem. Suas escolhas ficam salvas neste celular.",
+    "nameRequired": "Escreva seu nome para entrar.",
+    "submit": "Começar a comparar",
+    "trust": "Só pedimos seu nome. Sem cadastro, senha, telefone ou pagamento.",
+    "hostShortcut": "Você organiza esta priorização.",
+    "openHost": "Abrir painel do organizador"
+  },
+  "Personal": {
+    "hello": "Oi, {name}!",
+    "tabsLabel": "Seções",
+    "tabs": {
+      "compare": "Comparar",
+      "ranking": "Meu ranking",
+      "results": "Comparar visões"
+    },
+    "hostShortcut": "Abrir painel do organizador",
+    "or": "ou",
+    "progressLabel": "Progresso",
+    "progressFull": "{answered} de {total}",
+    "progressQuick": "{percent} · faltam até {left}",
+    "undo": "Desfazer",
+    "restart": "Recomeçar",
+    "restartConfirm": "Apagar todas as suas escolhas nesta priorização e começar de novo? As dos outros continuam.",
+    "keysHint": "Teclado: ← e → escolhem, Z desfaz.",
+    "doneTitle": "Pronto, seu ranking está completo",
+    "doneHint": "{count, plural, one {# escolha.} other {# escolhas.}} Agora dá para ver como os outros pensam.",
+    "seeResults": "Comparar com os outros",
+    "rankingEmpty": "Você ainda não comparou nada.",
+    "rankingPartial": "Ranking provisório: ele se completa conforme você compara.",
+    "start": "Começar",
+    "continue": "Continuar comparando",
+    "resultsLocked": "Conclua o seu ranking para ver o dos outros. Assim a opinião de ninguém influencia a sua.",
+    "loadingResults": "Buscando os rankings dos outros…",
+    "refreshResults": "Atualizar resultados",
+    "suggestTitle": "Faltou alguma coisa?",
+    "suggestHint": "Sugira um item. Ele entra na lista de todo mundo, e cada um faz as comparações que faltarem.",
+    "suggestLabel": "Novo item",
+    "suggestPlaceholder": "Ex.: Nota fiscal sai com erro",
+    "suggestSubmit": "Sugerir",
+    "keepLinkTitle": "Guarde este link",
+    "keepLinkHint": "É por ele que você continua de outro celular ou computador. Não mande para ninguém."
+  },
+  "Host": {
+    "badge": "Você organiza",
+    "editDetails": "Editar nome e critério",
+    "mySide": "Você também compara",
+    "openMine": "Ir para as minhas comparações",
+    "inviteTitle": "Chame as pessoas",
+    "inviteHint": "Mande o link da priorização: cada um escreve o próprio nome e compara no próprio celular.",
+    "inviteMessage": "Me ajuda a priorizar \"{title}\"? A pergunta é: {criterion} Entre pelo link, escreva seu nome e compare dois itens de cada vez (não precisa de cadastro):",
+    "sendListLink": "Enviar link no WhatsApp",
+    "participantsTitle": "Participantes",
+    "participantsEmpty": "Ninguém ainda. Mande o link acima.",
+    "statusDone": "Concluiu",
+    "statusNotStarted": "Não começou",
+    "statusProgress": "{count} de ~{expected}",
+    "removeConfirm": "Tirar {name} da priorização? As escolhas da pessoa são apagadas.",
+    "resultsTitle": "Resultados",
+    "resultsEmpty": "Os resultados aparecem aqui quando as pessoas começarem a comparar.",
+    "resultsHint": "Você vê tudo. Cada participante só vê os rankings dos outros depois de concluir o próprio.",
+    "itemsTitle": "Itens",
+    "suggestedBy": "sugerido por {name}",
+    "removeItemConfirm": "Tirar \"{label}\" da lista? Ele sai do ranking de todo mundo, sem mexer no resto.",
+    "addItems": "Adicionar itens",
+    "addItemsHint": "Um por linha.",
+    "addItemsHintStarted": "Um por linha. Quem já comparou vai responder só as comparações novas.",
+    "addItemsPlaceholder": "Novo item",
+    "addSubmit": "Adicionar",
+    "hostLinkTitle": "Seu link de organizador",
+    "hostLinkHint": "É por ele que você abre este painel em outro celular. Guarde e não mande para ninguém.",
+    "dangerTitle": "Apagar priorização",
+    "dangerHint": "Apaga a lista, os participantes e todas as escolhas. Não dá para desfazer.",
+    "deleteList": "Apagar priorização",
+    "deleteConfirm": "Apagar \"{title}\" de vez? Os links de todo mundo param de funcionar.",
+    "noHostToken": "Este celular não tem o link de organizador desta priorização. Abra o link de organizador que você guardou."
+  },
+  "Details": {
+    "title": "Nome e critério",
+    "submit": "Salvar",
+    "criterionChangedWarning": "Já tem gente comparando. Mudar o critério muda o sentido das escolhas já feitas: se a pergunta mudou de verdade, vale pedir para recomeçarem."
+  },
+  "Manage": {
+    "checking": "Abrindo a priorização como organizador…",
+    "missingToken": "Este link de organizador está incompleto. Copie o link inteiro de novo."
+  },
+  "OpenPersonal": {
+    "checking": "Abrindo o seu link…",
+    "missingToken": "Este link pessoal está incompleto. Copie o link inteiro de novo."
+  },
+  "MyLists": {
+    "title": "Minhas priorizações",
+    "link": "Minhas priorizações",
+    "empty": "Nenhuma priorização neste celular ainda.",
+    "create": "Criar priorização",
+    "roleHost": "Organizo",
+    "roleParticipant": "Participo",
+    "forget": "Tirar deste celular",
+    "forgetConfirm": "Tirar \"{title}\" deste celular? A priorização continua existindo; você só perde o atalho e os links guardados aqui."
+  },
+  "Share": {
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyFailed": "Não deu para copiar. Toque e segure no link para copiar."
+  },
+  "Errors": {
+    "list_not_found": "Não achamos essa priorização. Confira o link com quem te mandou.",
+    "not_authorized": "Este link de organizador não é válido.",
+    "participant_not_found": "Este link pessoal não vale mais. Entre de novo pelo link da priorização.",
+    "participant_name_required": "Escreva um nome.",
+    "participant_name_taken": "Já tem alguém chamado {name} aqui. Se for você, abra o seu link pessoal; se não, use outro nome.",
+    "list_full": "Esta priorização chegou ao limite de 200 pessoas.",
+    "list_items_full": "A lista chegou ao limite de 100 itens.",
+    "not_enough_items": "A lista precisa ter pelo menos 2 itens.",
+    "item_not_found": "Esse item não está mais na lista. A tela foi atualizada.",
+    "item_label_required": "Escreva o item.",
+    "item_label_taken": "\"{label}\" já está na lista.",
+    "comparison_invalid": "Essa escolha não valeu. A tela foi atualizada.",
+    "rate_limited": "Você criou muitas priorizações em pouco tempo. {period, select, day {Tente de novo amanhã.} other {Tente de novo daqui a uma hora.}}",
+    "network": "Sem conexão. Sua alteração não foi salva.",
+    "unknown": "Algo deu errado. Tente de novo."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma"
+  },
+  "NotFound": {
+    "title": "Página não encontrada",
+    "body": "Confira o link ou crie uma priorização nova.",
+    "cta": "Criar priorização"
+  },
+  "Legal": {
+    "about": "Sobre",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "linksLabel": "Sobre o Utrum",
+    "updated": "Atualizado em {date}",
+    "back": "Voltar",
+    "contactTitle": "Contato",
+    "contactBody": "Dúvidas, pedidos sobre seus dados ou algo errado: <link>{contact}</link>."
+  },
+  "About": {
+    "title": "Sobre o Utrum",
+    "intro": "O Utrum ajuda a decidir o que vem primeiro: em vez de ordenar uma lista inteira de cabeça, você escolhe entre dois itens de cada vez. \"Utrum\" é latim para \"qual dos dois?\". É gratuito, sem cadastro e de código aberto.",
+    "sections": {
+      "how": {
+        "title": "Como funciona",
+        "p1": "Quem organiza monta a lista e escreve o critério, a pergunta que aparece em cada comparação: \"Qual é mais urgente?\", \"Qual você prefere?\".",
+        "p2": "No método rápido, o app vai encaixando cada item no lugar certo com o mínimo de perguntas, como quem ordena cartas. No método completo, todos os pares são comparados e ganha quem vence mais.",
+        "p3": "Cada pessoa recebe as comparações numa ordem diferente, para que a ordem não puxe as escolhas."
+      },
+      "visibility": {
+        "title": "Quem vê o quê",
+        "p1": "Cada pessoa só vê o ranking dos outros depois de concluir o próprio, para que ninguém se deixe levar pela opinião alheia. Quem organiza vê o andamento e os rankings de todos."
+      },
+      "safety": {
+        "title": "Como saber que é seguro",
+        "p1": "O Utrum só pede o seu nome. Nunca pede senha, código de verificação, telefone, CPF, dados de cartão ou pagamento. Se uma página pedir isso, não é o Utrum.",
+        "p2": "Os links do Utrum começam com {host}."
+      },
+      "who": {
+        "title": "Quem faz",
+        "p1": "O Utrum é um projeto independente, feito no Brasil e mantido por {operator}, os mesmos do QuemLeva e do AmigoSecreto."
+      },
+      "code": {
+        "title": "Código aberto",
+        "p1": "O código é aberto, sob a licença AGPL-3.0, e qualquer pessoa pode conferir como o ranking é calculado <repo>no GitHub</repo>."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Política de privacidade",
+    "intro": "Esta política explica, em linguagem simples, quais dados o Utrum guarda, para quê e por quanto tempo. O Utrum não tem cadastro e não vende nem compartilha dados para publicidade.",
+    "sections": {
+      "collect": {
+        "title": "O que guardamos",
+        "p1": "O que quem organiza escreve: nome da priorização, critério, explicação e itens.",
+        "p2": "O nome de cada participante, os itens que cada um sugere, as escolhas de cada comparação e o ranking que sai delas.",
+        "p3": "Um código aleatório do aparelho, que reconhece você sem cadastro.",
+        "p4": "Para evitar abuso, registramos a criação de priorizações com uma versão embaralhada (hash) do endereço IP. Esse registro é apagado em até 1 dia."
+      },
+      "visibility": {
+        "title": "Quem vê o quê",
+        "p1": "Quem tem o link da priorização vê o nome, o critério, os itens e os nomes de quem já está participando.",
+        "p2": "Pelo seu link pessoal, você vê as suas escolhas e o seu ranking. Depois de concluir o seu ranking, você vê também o ranking de cada participante, com o nome.",
+        "p3": "O link de organizador mostra o andamento e o ranking de todos e permite mudar a lista. Guarde esse link só para você."
+      },
+      "device": {
+        "title": "No seu aparelho",
+        "p1": "O navegador guarda o código do aparelho, os seus links (de organizador e pessoal) e a lista de \"Minhas priorizações\", além de um cookie com o idioma escolhido. Não usamos cookies de publicidade nem de rastreamento."
+      },
+      "providers": {
+        "title": "Serviços que usamos",
+        "p1": "Supabase (banco de dados, com servidores em São Paulo) e Vercel (hospedagem do site). Eles tratam os dados só para o Utrum funcionar e podem manter registros técnicos de acesso, como o endereço IP, conforme as próprias políticas."
+      },
+      "retention": {
+        "title": "Por quanto tempo",
+        "p1": "As priorizações ficam guardadas enquanto o Utrum estiver no ar, para que os links continuem funcionando. Quem organiza pode apagar tudo a qualquer momento, e você pode pedir a exclusão pelo contato abaixo."
+      },
+      "rights": {
+        "title": "Seus direitos",
+        "p1": "Pela LGPD, você pode pedir para ver, corrigir ou apagar os seus dados, ou uma priorização inteira. Escreva para o contato abaixo e mande junto o link.",
+        "p2": "No próprio app, você pode desfazer ou recomeçar as suas escolhas, e quem organiza pode remover participantes e itens."
+      },
+      "controller": {
+        "title": "Responsável",
+        "p1": "O responsável pelos dados é {operator}. Se esta política mudar, a data no topo é atualizada."
+      }
+    }
+  },
+  "Terms": {
+    "title": "Termos de uso",
+    "intro": "Ao usar o Utrum, você concorda com estes termos.",
+    "sections": {
+      "service": {
+        "title": "O serviço",
+        "p1": "O Utrum é gratuito e oferecido como está, sem garantia de que vai funcionar sempre ou sem erros. Ele pode mudar ou ser encerrado; sempre que possível, avisaremos antes. Os rankings são um apoio à decisão, não uma decisão."
+      },
+      "content": {
+        "title": "O que você escreve",
+        "p1": "Você é responsável pelo que escreve nas listas, critérios e itens. Não use o Utrum para conteúdo ilegal, ofensivo ou enganoso, nem para spam. Podemos remover priorizações que descumpram estas regras."
+      },
+      "links": {
+        "title": "Links",
+        "p1": "Quem tem o link da priorização pode ver a lista e entrar. O link pessoal guarda as suas escolhas: não passe o seu adiante. Não divulgue o link de organizador."
+      },
+      "license": {
+        "title": "Código aberto",
+        "p1": "O código do Utrum está sob a licença AGPL-3.0."
+      },
+      "law": {
+        "title": "Lei aplicável",
+        "p1": "Estes termos seguem as leis do Brasil."
+      }
+    }
+  },
+  "Preview": {
+    "chip": "Priorização",
+    "cta": "Compare dois de cada vez e veja o ranking",
+    "alt": "Convite para priorizar {title}"
+  }
+}

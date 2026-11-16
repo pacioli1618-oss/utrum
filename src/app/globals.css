@@ -1,0 +1,116 @@
+/* Design System tokens (Utrum: QuemLeva's system with GR1618's gold). Names follow docs/conventions.md.
+   Keep in sync with the Design System's tokens.json. */
+:root {
+  color-scheme: light dark;
+
+  /* Color — light */
+  --surface: #f8f6f1;
+  --card: #ffffff;
+  --ink: #1f1c16;
+  --ink-soft: #46402f;
+  --ink-muted: #625a49;
+  --border: #e4ded1;
+  --border-control: #8b8270;
+  --divider: #f1ece2;
+  --track: #f1ece2;
+  --brand: #8a5a00;
+  --brand-strong: #6b4400;
+  --brand-tint: #f8eed8;
+  --on-brand: #ffffff;
+  --ember: #b4412f;
+  --ember-strong: #8a2b1d;
+  --ember-tint: #fbe8e3;
+  --ember-track: #f3d6cf;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  /* Size */
+  --size-chip: 36px;
+  --size-control: 44px;
+  --size-cta: 54px;
+
+  /* Type */
+  --font-sans: var(--font-jakarta), "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Screen only: paper is always light, so printed pages keep dark text. */
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --surface: #15130e;
+    --card: #1f1c15;
+    --ink: #f2eee4;
+    --ink-soft: #d3cbb9;
+    --ink-muted: #aaa18c;
+    --border: #343024;
+    --border-control: #7c735f;
+    --divider: #29251c;
+    --track: #343024;
+    --brand: #e2b04f;
+    --brand-strong: #f6d690;
+    --brand-tint: #3a2d12;
+    --on-brand: #1c1404;
+    --ember: #ec8a76;
+    --ember-strong: #f8b9ab;
+    --ember-tint: #3e1f19;
+    --ember-track: #4a2720;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* One focus style for every control: visible on keyboard, invisible on tap. */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+}
+
+@media print {
+  html,
+  body {
+    background: var(--card);
+  }
+}

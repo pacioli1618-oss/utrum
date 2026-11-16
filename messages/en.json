@@ -1,0 +1,342 @@
+{
+  "Metadata": {
+    "title": "Utrum — prioritize by comparing two at a time",
+    "description": "Make a list, pick the criterion and decide what comes first by comparing two items at a time. Then compare your view with everyone else's. No sign-up."
+  },
+  "Common": {
+    "tagline": "Free · Open source · No sign-up",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "loading": "Loading…",
+    "optional": "optional",
+    "people": "{count, plural, one {# person} other {# people}}",
+    "items": "{count, plural, one {# item} other {# items}}"
+  },
+  "CreateList": {
+    "headline": "What comes first?",
+    "intro": "Make the list, pick the criterion and compare two items at a time. Your ranking builds itself, and you can see where your view matches (or not) everyone else's.",
+    "title": "Name",
+    "titlePlaceholder": "E.g. System issues for next quarter",
+    "titleRequired": "Give it a name.",
+    "items": "Items",
+    "itemsHint": "One per line: topics, movies, problems, tasks…",
+    "itemsPlaceholder": "Sales report is slow\nLogin fails on mobile\nBackups are still manual",
+    "itemsRequired": "Add at least 2 items, one per line.",
+    "itemsTooMany": "At most {max} items.",
+    "itemsCount": "{count, plural, one {# item} other {# items}} · about {comparisons, plural, one {# comparison} other {# comparisons}} per person",
+    "method": "Method",
+    "methods": {
+      "quick": {
+        "title": "Quick",
+        "hint": "Sorts with as few questions as possible. Good for long lists."
+      },
+      "full": {
+        "title": "Complete",
+        "hint": "Compares every pair and counts wins. Best up to about 12 items."
+      }
+    },
+    "hostTakesPart": "I'll compare too",
+    "hostTakesPartHint": "You build your own ranking like everyone else. Uncheck if you only organize and look at the results.",
+    "hostName": "Your name",
+    "hostNameHint": "How the others know you.",
+    "hostNameRequired": "Write your name to compare too.",
+    "submit": "Create list"
+  },
+  "Criterion": {
+    "label": "Criterion",
+    "hint": "The question shown on every comparison.",
+    "placeholder": "E.g. Which affects more customers?",
+    "required": "Write the criterion.",
+    "presetsLabel": "Ready-made criteria",
+    "presets": {
+      "important": "Which is more important?",
+      "urgent": "Which is more urgent?",
+      "critical": "Which is more critical?",
+      "impact": "Which has more impact?",
+      "prefer": "Which do you prefer?",
+      "watch": "Which do you want to watch first?",
+      "first": "Which should we tackle first?"
+    },
+    "detailLabel": "Explain the criterion",
+    "detailHint": "Helps everyone judge the same way.",
+    "detailPlaceholder": "E.g. Think about revenue impact and the risk of stopping operations"
+  },
+  "ListSummary": {
+    "method": {
+      "quick": "quick method",
+      "full": "every pair"
+    },
+    "itemsLabel": "Items",
+    "whoIsIn": "Who's in",
+    "nobodyYet": "Nobody yet. Be the first."
+  },
+  "Ranking": {
+    "wins": "{count, plural, one {# win} other {# wins}}",
+    "unplaced": "no position yet"
+  },
+  "Results": {
+    "you": "You",
+    "statusDone": "done",
+    "statusNotStarted": "not started",
+    "statusProgress": "{percent}",
+    "noneComplete": "Results show up once someone completes their ranking.",
+    "consolidatedTitle": "Combined ranking",
+    "consolidatedHint": "Average position across {count, plural, one {the completed ranking} other {the # completed rankings}}. Stronger color, closer to the top.",
+    "pendingLeftOut": "{count, plural, one {One person still comparing is left out.} other {# people still comparing are left out.}}",
+    "item": "Item",
+    "mean": "Average",
+    "spread": "Spread",
+    "agreementTitle": "Agreement",
+    "agreementHint": "How much each pair of people ordered the items the same way. Overall average: {percent}.",
+    "agreementPair": "{first} and {second}: {percent}",
+    "divergenceTitle": "Worth a conversation",
+    "divergenceHint": "The items whose position varies most between people.",
+    "fullConsensus": "Everyone ordered them exactly the same.",
+    "positionOf": "{name} #{position}",
+    "positionRange": "from #{best} to #{worst}"
+  },
+  "Join": {
+    "invitedLabel": "Prioritization",
+    "howItWorks": "You'll see two items at a time and pick one, by the criterion above. At the end you get your ranking, and then you can see everyone else's.",
+    "whoAreYou": "What's your name?",
+    "namePlaceholder": "Your name",
+    "nameHint": "How the others know you. Your choices are saved on this phone.",
+    "nameRequired": "Write your name to join.",
+    "submit": "Start comparing",
+    "trust": "We only ask for your name. No sign-up, password, phone number or payment.",
+    "hostShortcut": "You organize this list.",
+    "openHost": "Open the organizer panel"
+  },
+  "Personal": {
+    "hello": "Hi, {name}!",
+    "tabsLabel": "Sections",
+    "tabs": {
+      "compare": "Compare",
+      "ranking": "My ranking",
+      "results": "Compare views"
+    },
+    "hostShortcut": "Open the organizer panel",
+    "or": "or",
+    "progressLabel": "Progress",
+    "progressFull": "{answered} of {total}",
+    "progressQuick": "{percent} · up to {left} left",
+    "undo": "Undo",
+    "restart": "Start over",
+    "restartConfirm": "Delete all your choices on this list and start over? Everyone else's stay.",
+    "keysHint": "Keyboard: ← and → pick, Z undoes.",
+    "doneTitle": "Done, your ranking is complete",
+    "doneHint": "{count, plural, one {# choice.} other {# choices.}} Now you can see how the others think.",
+    "seeResults": "Compare with the others",
+    "rankingEmpty": "You haven't compared anything yet.",
+    "rankingPartial": "Provisional ranking: it fills in as you compare.",
+    "start": "Start",
+    "continue": "Keep comparing",
+    "resultsLocked": "Complete your ranking to see everyone else's. That way nobody's opinion sways yours.",
+    "loadingResults": "Fetching the others' rankings…",
+    "refreshResults": "Refresh results",
+    "suggestTitle": "Something missing?",
+    "suggestHint": "Suggest an item. It joins everyone's list, and each person makes the comparisons it adds.",
+    "suggestLabel": "New item",
+    "suggestPlaceholder": "E.g. Invoices come out wrong",
+    "suggestSubmit": "Suggest",
+    "keepLinkTitle": "Keep this link",
+    "keepLinkHint": "It lets you continue on another phone or computer. Don't send it to anyone."
+  },
+  "Host": {
+    "badge": "You organize",
+    "editDetails": "Edit name and criterion",
+    "mySide": "You compare too",
+    "openMine": "Go to my comparisons",
+    "inviteTitle": "Invite people",
+    "inviteHint": "Send the list link: each person writes their own name and compares on their own phone.",
+    "inviteMessage": "Can you help me prioritize \"{title}\"? The question is: {criterion} Open the link, write your name and compare two items at a time (no sign-up):",
+    "sendListLink": "Send link on WhatsApp",
+    "participantsTitle": "Participants",
+    "participantsEmpty": "Nobody yet. Send the link above.",
+    "statusDone": "Done",
+    "statusNotStarted": "Not started",
+    "statusProgress": "{count} of ~{expected}",
+    "removeConfirm": "Remove {name}? Their choices will be deleted.",
+    "resultsTitle": "Results",
+    "resultsEmpty": "Results show up here once people start comparing.",
+    "resultsHint": "You see everything. Each participant only sees the others' rankings after completing their own.",
+    "itemsTitle": "Items",
+    "suggestedBy": "suggested by {name}",
+    "removeItemConfirm": "Remove \"{label}\" from the list? It leaves everyone's ranking; the rest stays as is.",
+    "addItems": "Add items",
+    "addItemsHint": "One per line.",
+    "addItemsHintStarted": "One per line. People who already compared will only answer the new comparisons.",
+    "addItemsPlaceholder": "New item",
+    "addSubmit": "Add",
+    "hostLinkTitle": "Your organizer link",
+    "hostLinkHint": "It opens this panel on another phone. Keep it and don't send it to anyone.",
+    "dangerTitle": "Delete list",
+    "dangerHint": "Deletes the list, the participants and every choice. This can't be undone.",
+    "deleteList": "Delete list",
+    "deleteConfirm": "Delete \"{title}\" for good? Everyone's links will stop working.",
+    "noHostToken": "This phone doesn't have the organizer link for this list. Open the organizer link you saved."
+  },
+  "Details": {
+    "title": "Name and criterion",
+    "submit": "Save",
+    "criterionChangedWarning": "People are already comparing. Changing the criterion changes the meaning of the choices already made: if the question really changed, ask them to start over."
+  },
+  "Manage": {
+    "checking": "Opening the list as organizer…",
+    "missingToken": "This organizer link is incomplete. Copy the whole link again."
+  },
+  "OpenPersonal": {
+    "checking": "Opening your link…",
+    "missingToken": "This personal link is incomplete. Copy the whole link again."
+  },
+  "MyLists": {
+    "title": "My lists",
+    "link": "My lists",
+    "empty": "No lists on this phone yet.",
+    "create": "Create list",
+    "roleHost": "Organizer",
+    "roleParticipant": "Participant",
+    "forget": "Remove from this phone",
+    "forgetConfirm": "Remove \"{title}\" from this phone? The list still exists; you only lose the shortcut and the links saved here."
+  },
+  "Share": {
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Couldn't copy. Tap and hold the link to copy it."
+  },
+  "Errors": {
+    "list_not_found": "We couldn't find this list. Check the link with whoever sent it.",
+    "not_authorized": "This organizer link isn't valid.",
+    "participant_not_found": "This personal link no longer works. Join again through the list link.",
+    "participant_name_required": "Write a name.",
+    "participant_name_taken": "Someone called {name} is already here. If that's you, open your personal link; if not, use another name.",
+    "list_full": "This list has reached the limit of 200 people.",
+    "list_items_full": "The list has reached the limit of 100 items.",
+    "not_enough_items": "The list needs at least 2 items.",
+    "item_not_found": "That item is no longer on the list. The screen was refreshed.",
+    "item_label_required": "Write the item.",
+    "item_label_taken": "\"{label}\" is already on the list.",
+    "comparison_invalid": "That choice didn't count. The screen was refreshed.",
+    "rate_limited": "You created many lists in a short time. {period, select, day {Try again tomorrow.} other {Try again in an hour.}}",
+    "network": "No connection. Your change wasn't saved.",
+    "unknown": "Something went wrong. Try again."
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "Check the link or create a new list.",
+    "cta": "Create list"
+  },
+  "Legal": {
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "linksLabel": "About Utrum",
+    "updated": "Updated on {date}",
+    "back": "Back",
+    "contactTitle": "Contact",
+    "contactBody": "Questions, requests about your data or something wrong: <link>{contact}</link>."
+  },
+  "About": {
+    "title": "About Utrum",
+    "intro": "Utrum helps decide what comes first: instead of sorting a whole list in your head, you choose between two items at a time. \"Utrum\" is Latin for \"which of the two?\". It's free, has no sign-up and is open source.",
+    "sections": {
+      "how": {
+        "title": "How it works",
+        "p1": "The organizer makes the list and writes the criterion, the question shown on every comparison: \"Which is more urgent?\", \"Which do you prefer?\".",
+        "p2": "With the quick method, the app slots each item into place with as few questions as possible, like sorting a hand of cards. With the complete method, every pair is compared and the item with the most wins comes first.",
+        "p3": "Each person gets the comparisons in a different order, so the order doesn't pull the choices."
+      },
+      "visibility": {
+        "title": "Who sees what",
+        "p1": "Each person only sees the others' rankings after completing their own, so nobody is swayed by someone else's opinion. The organizer sees everyone's progress and rankings."
+      },
+      "safety": {
+        "title": "How to tell it's safe",
+        "p1": "Utrum only asks for your name. It never asks for a password, verification code, phone number, ID, card details or payment. If a page asks for that, it isn't Utrum.",
+        "p2": "Utrum links start with {host}."
+      },
+      "who": {
+        "title": "Who makes it",
+        "p1": "Utrum is an independent project made in Brazil and run by {operator}, the people behind QuemLeva and AmigoSecreto."
+      },
+      "code": {
+        "title": "Open source",
+        "p1": "The code is open, under the AGPL-3.0 license, and anyone can check how the ranking is computed <repo>on GitHub</repo>."
+      }
+    }
+  },
+  "Privacy": {
+    "title": "Privacy policy",
+    "intro": "This policy explains, in plain language, what data Utrum keeps, why and for how long. Utrum has no sign-up and does not sell or share data for advertising.",
+    "sections": {
+      "collect": {
+        "title": "What we keep",
+        "p1": "What the organizer writes: the list's name, criterion, explanation and items.",
+        "p2": "Each participant's name, the items each one suggests, the choice made on each comparison and the ranking that comes out of them.",
+        "p3": "A random device code, which recognizes you without a sign-up.",
+        "p4": "To prevent abuse, we log list creation with a scrambled version (hash) of the IP address. That log is deleted within 1 day."
+      },
+      "visibility": {
+        "title": "Who sees what",
+        "p1": "Anyone with the list link sees its name, criterion, items and the names of who is taking part.",
+        "p2": "Through your personal link, you see your choices and your ranking. After completing your ranking, you also see each participant's ranking, with their name.",
+        "p3": "The organizer link shows everyone's progress and ranking and lets you change the list. Keep that link to yourself."
+      },
+      "device": {
+        "title": "On your device",
+        "p1": "The browser stores the device code, your links (organizer and personal) and the \"My lists\" list, plus a cookie with your chosen language. We don't use advertising or tracking cookies."
+      },
+      "providers": {
+        "title": "Services we use",
+        "p1": "Supabase (database, with servers in São Paulo) and Vercel (website hosting). They process data only so Utrum works and may keep technical access logs, such as IP addresses, under their own policies."
+      },
+      "retention": {
+        "title": "For how long",
+        "p1": "Lists are kept while Utrum is online, so the links keep working. The organizer can delete everything at any time, and you can ask for deletion through the contact below."
+      },
+      "rights": {
+        "title": "Your rights",
+        "p1": "Under Brazil's LGPD, you can ask to see, correct or delete your data, or a whole list. Write to the contact below and include the link.",
+        "p2": "In the app itself, you can undo or restart your choices, and the organizer can remove participants and items."
+      },
+      "controller": {
+        "title": "Data controller",
+        "p1": "The data controller is {operator}. If this policy changes, the date at the top is updated."
+      }
+    }
+  },
+  "Terms": {
+    "title": "Terms of use",
+    "intro": "By using Utrum, you agree to these terms.",
+    "sections": {
+      "service": {
+        "title": "The service",
+        "p1": "Utrum is free and provided as is, with no guarantee that it will always work or be error-free. It may change or shut down; whenever possible, we'll give notice. Rankings support a decision; they are not the decision."
+      },
+      "content": {
+        "title": "What you write",
+        "p1": "You are responsible for what you write in lists, criteria and items. Don't use Utrum for illegal, offensive or misleading content, or for spam. We may remove lists that break these rules."
+      },
+      "links": {
+        "title": "Links",
+        "p1": "Anyone with the list link can see the list and join. Your personal link holds your choices: don't pass it on. Don't share the organizer link."
+      },
+      "license": {
+        "title": "Open source",
+        "p1": "Utrum's code is under the AGPL-3.0 license."
+      },
+      "law": {
+        "title": "Governing law",
+        "p1": "These terms are governed by the laws of Brazil."
+      }
+    }
+  },
+  "Preview": {
+    "chip": "Prioritization",
+    "cta": "Compare two at a time and see the ranking",
+    "alt": "Invitation to prioritize {title}"
+  }
+}

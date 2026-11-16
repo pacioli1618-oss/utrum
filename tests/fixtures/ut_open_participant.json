@@ -1,0 +1,84 @@
+{
+  "me": {
+    "id": "98309cb8-1bb7-47bb-8268-fb55a06a774a",
+    "name": "Luca"
+  },
+  "list": {
+    "slug": "mb6tuy4ysdkc",
+    "items": [
+      {
+        "id": "2bc4586c-0d2a-479f-a29f-7c6ab7c45da7",
+        "label": "Login lento",
+        "added_by_name": null
+      },
+      {
+        "id": "c926b0fc-6570-4a16-b11f-ccb0f002001a",
+        "label": "Relatório quebrado",
+        "added_by_name": null
+      },
+      {
+        "id": "55859947-3f98-484b-97c3-fbe3f9a92462",
+        "label": "Tela de login no celular",
+        "added_by_name": "Ana"
+      },
+      {
+        "id": "3b1862ff-85db-4f55-813b-79e128c53e0d",
+        "label": "Nota fiscal",
+        "added_by_name": null
+      }
+    ],
+    "title": "Prioridades",
+    "locale": "pt-BR",
+    "method": "quick",
+    "criterion": "Qual é mais crítico?",
+    "criterion_detail": null,
+    "participant_names": [
+      "Luca",
+      "Ana"
+    ]
+  },
+  "results": [
+    {
+      "id": "98309cb8-1bb7-47bb-8268-fb55a06a774a",
+      "name": "Luca",
+      "ranking": [
+        "2bc4586c-0d2a-479f-a29f-7c6ab7c45da7",
+        "c926b0fc-6570-4a16-b11f-ccb0f002001a",
+        "55859947-3f98-484b-97c3-fbe3f9a92462",
+        "3b1862ff-85db-4f55-813b-79e128c53e0d"
+      ],
+      "has_completed": true,
+      "comparison_count": 4
+    },
+    {
+      "id": "71011e64-73e0-4ac1-afdd-1eeca239ba50",
+      "name": "Ana",
+      "ranking": null,
+      "has_completed": true,
+      "comparison_count": 1
+    }
+  ],
+  "comparisons": [
+    {
+      "winner_id": "2bc4586c-0d2a-479f-a29f-7c6ab7c45da7",
+      "item_low_id": "2bc4586c-0d2a-479f-a29f-7c6ab7c45da7",
+      "item_high_id": "c926b0fc-6570-4a16-b11f-ccb0f002001a"
+    },
+    {
+      "winner_id": "2bc4586c-0d2a-479f-a29f-7c6ab7c45da7",
+      "item_low_id": "2bc4586c-0d2a-479f-a29f-7c6ab7c45da7",
+      "item_high_id": "55859947-3f98-484b-97c3-fbe3f9a92462"
+    },
+    {
+      "winner_id": "c926b0fc-6570-4a16-b11f-ccb0f002001a",
+      "item_low_id": "55859947-3f98-484b-97c3-fbe3f9a92462",
+      "item_high_id": "c926b0fc-6570-4a16-b11f-ccb0f002001a"
+    },
+    {
+      "winner_id": "55859947-3f98-484b-97c3-fbe3f9a92462",
+      "item_low_id": "3b1862ff-85db-4f55-813b-79e128c53e0d",
+      "item_high_id": "55859947-3f98-484b-97c3-fbe3f9a92462"
+    }
+  ],
+  "has_completed": true
+}
