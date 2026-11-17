@@ -75,6 +75,14 @@ export function CreateListForm() {
         hostToken: created.hostToken,
         participantToken: created.participantToken ?? undefined,
       });
+      // Next keeps this screen's state for when the person comes back (cacheComponents): leave it
+      // as a blank form, not stuck on "sending" with the previous list in it. The name stays.
+      setTitle('');
+      setCriterion(criterionText('presets.important'));
+      setCriterionDetail('');
+      setMethod('quick');
+      setItemsText('');
+      setIsSubmitting(false);
       router.push(`/l/${created.slug}/host`);
     } catch (error) {
       setFormError(rpcErrorMessage(error));

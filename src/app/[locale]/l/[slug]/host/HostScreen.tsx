@@ -180,6 +180,7 @@ function HostPanel({slug, hostToken, hasParticipantToken}: {slug: string; hostTo
             try {
               await deleteList(slug, hostToken);
               forgetList(slug);
+              setBusyKey(null);
               router.replace('/my-lists');
             } catch (failure) {
               setActionError({key: 'delete', message: rpcErrorMessage(failure)});
