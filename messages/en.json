@@ -240,7 +240,8 @@
     "updated": "Updated on {date}",
     "back": "Back",
     "contactTitle": "Contact",
-    "contactBody": "Questions, requests about your data or something wrong: <link>{contact}</link>."
+    "contactBody": "Questions, requests about your data or something wrong: <link>{contact}</link>.",
+    "version": "version {version}"
   },
   "About": {
     "title": "About Utrum",
